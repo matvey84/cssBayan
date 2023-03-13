@@ -2,8 +2,8 @@
 
 @media (min-width: 300px) and (max-width: 767px) {
   * {
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
   }
   body {
@@ -28,7 +28,7 @@
     margin-left: .625rem;
     text-align: left;
     padding-left: .625rem;
-    border-bottom: 1px solid #008000;
+    border-bottom: 0.0625rem solid #008000;
     box-shadow: .3125rem .5625rem .625rem .1875rem rgba(0, 128, 0, 0.2);
   }
   .mem-item_list {
@@ -103,21 +103,6 @@
     color: green;
     transition: 1s all;
   }
-  .mem-item_list:hover .mem-item > .mem-item_header-title {
-    color: black;
-    transition: 1s all;
-    font-weight: 600;
-    background-color: green;
-  }
-  
-  .mem-item_list:hover .mem-item > .mem-item_check + .mem-item_header-title .mem-item_triangle {
-    color: black
-  }
-  
-  .mem-item_list:hover .mem-item > .mem-item_check:checked + .mem-item_header-title,
-  .mem-item_list:hover .mem-item > .mem-item_check:checked + .mem-item_header-title .mem-item_triangle  {
-    color: red;
-  }
   
   .mem-item_check:checked ~ .mem-item_header-title {
     color: red;
@@ -130,19 +115,7 @@
     padding-bottom: .3125rem;
   }
   
-  .mem-item:hover .mem-item_content-block {
-    display: block;
-    width: 100%;
-    height: 75vh;
-    padding-top: .3125rem;
-    padding-bottom: .3125rem;
-  }
-  
-  .mem-item:hover > .mem-item_header-title .mem-item_triangle{
-    transform: rotate(180deg);
-    color: black;
-  }
-  
+
   .mem-item_check:checked + .mem-item_header-title .mem-item_triangle{
     transform: rotate(180deg);
     color: red
@@ -170,6 +143,19 @@
   
   .mem4 {
     background-image: url('https://dev.by/storage/images/44/14/12/03/derived/9f1b0cc0fc7967986851e3d3f38e2575.jpg');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .mem5 {
+    background-image: url('https://jokesland.net.ru/dem2/demotivatory_1121/26.jpg');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  .mem6 {
+    background-image: url('https://cs14.pikabu.ru/post_img/2023/03/06/6/167809450618780633.webp');
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;

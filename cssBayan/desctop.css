@@ -172,5 +172,17 @@
     background-position: center;
     background-repeat: no-repeat;
   }
+  .mem5 {
+    background-image: url('https://jokesland.net.ru/dem2/demotivatory_1121/26.jpg');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .mem6 {
+    background-image: url('https://cs14.pikabu.ru/post_img/2023/03/06/6/167809450618780633.webp');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
 }
 
